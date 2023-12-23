@@ -1,0 +1,26 @@
+package shoppersstack.objectrepository;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class BasePage {
+	BasePage(WebDriver driver){
+		PageFactory.initElements(driver, this);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

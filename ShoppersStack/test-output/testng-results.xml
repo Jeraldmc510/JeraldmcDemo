@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-23T14:39:39 IST" name="Default suite" finished-at="2023-12-23T14:41:29 IST" duration-ms="109893">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T14:39:39 IST" name="Default test" finished-at="2023-12-23T14:41:29 IST" duration-ms="109893">
+      <class name="shoppersstack.testscripts.DataProvidersDemo1Test">
+        <test-method signature="loginTest1(java.lang.String,java.lang.String)[pri:0, instance:shoppersstack.testscripts.DataProvidersDemo1Test@2d52216b]" started-at="2023-12-23T14:39:40 IST" name="loginTest1" data-provider="dataSupplier" finished-at="2023-12-23T14:40:46 IST" duration-ms="66144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method signature="loginTest1(java.lang.String,java.lang.String)[pri:0, instance:shoppersstack.testscripts.DataProvidersDemo1Test@2d52216b]" started-at="2023-12-23T14:40:46 IST" name="loginTest1" data-provider="dataSupplier" finished-at="2023-12-23T14:41:29 IST" duration-ms="42731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+      </class> <!-- shoppersstack.testscripts.DataProvidersDemo1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
